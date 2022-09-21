@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: space-around;
+}
+
+.container-anchor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 7rem;
+}
+
+.container-anchor:hover {
+  cursor: pointer;
+  transition-duration: .4s;
+  transform: translateY(-5px);
+}

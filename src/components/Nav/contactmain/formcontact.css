@@ -1,0 +1,32 @@
+.container-form {
+  background-color: aquamarine;
+  width: 50vw;
+  height: 48vh;
+  color:black;
+  margin-bottom: 5rem;
+}
+
+.about__container {
+  background-color: transparent;
+  margin-bottom: 2rem;
+}
+
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 50%;
+  text-align: center;
+  border-color: aquamarine;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+}
+
+textarea {
+  width: 49.9vw; /* 300 px o */
+  height: 36.2vh;/* 240 px o */
+}
+
